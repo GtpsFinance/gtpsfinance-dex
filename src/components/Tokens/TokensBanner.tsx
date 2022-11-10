@@ -9,7 +9,7 @@ import { useShowTokensPromoBanner } from 'state/user/hooks'
 import styled, { useTheme } from 'styled-components/macro'
 import { opacify } from 'theme/utils'
 import { Z_INDEX } from 'theme/zIndex'
-
+import tokensPromoLight from '../../assets/images/tokensPromoLight.png'
 const BackgroundColor = styled(Link) <{ show: boolean }>`
   background-color: ${({ theme }) => (theme.darkMode ? theme.backgroundScrim : '#0D0BB1')};
   border: 1px solid ${({ theme }) => theme.backgroundOutline};
